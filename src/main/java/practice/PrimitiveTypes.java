@@ -1,11 +1,13 @@
 package practice;
 
-public class PrimitiveType {
+import java.sql.SQLOutput;
+import java.util.concurrent.SynchronousQueue;
+
+public class PrimitiveTypes {
 
     public static void main(String[] args) {
 
         // Dopuble primitive type practice
-
 
 
         double doubleMinValue = Double.MIN_VALUE;
@@ -14,15 +16,22 @@ public class PrimitiveType {
         double doubleMaxValue = Double.MAX_VALUE;
         System.out.println(doubleMinValue);
 
-        double doubleValue =
+        double doubleValue = 1337.13;
+        System.out.println(doubleValue);
+
+        // Float primitive type
+
+        float floatMinValue = Float.MIN_VALUE;
+        System.out.println(floatMinValue);
+
+        float floatMaxValue = Float.MAX_VALUE;
+        System.out.println(floatMaxValue);
+
+        float floatValue = 1000.1f;
 
 
 
-
-
-
-
-                // Long primitive type practice
+               // Long primitive type practice
 
                 // Int primitive type practice
         int minIntValue = Integer.MIN_VALUE;
@@ -35,6 +44,7 @@ public class PrimitiveType {
         int secondVariable = 400;
 
         System.out.println(Integer.max(firstVariable, secondVariable));
+        System.out.println(Integer.compare(400,200));
 
 
 
@@ -46,18 +56,20 @@ public class PrimitiveType {
 
         String myName ="Angelina";
         String lastName = "Donchenko";
-        String namrAndLastname = myName + lastName;
+
+        String nameAndLastname = myName + lastName;
         System.out.println(myName + " " + lastName);
+
         System.out.printf("%s %s\n", myName, lastName);
-        String nameAndUserName = String.fornat("%s %s\n", myName, lastName);
+        String nameAndUserName = String.format("%s %s\n", myName, lastName);
+        System.out.println(nameAndUserName);
 
 
 
         // Boolean
 
-        boolean isStudent = false;
-
-
+        boolean isStudent = true;
+        
 
 
     }
