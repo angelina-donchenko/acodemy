@@ -28,6 +28,7 @@ public class PrimitiveTypes {
         System.out.println(floatMaxValue);
 
         float floatValue = 1000.1f;
+        System.out.println(floatValue);
 
 
 
@@ -69,7 +70,7 @@ public class PrimitiveTypes {
         // Boolean
 
         boolean isStudent = true;
-        
+
 
 
     }
